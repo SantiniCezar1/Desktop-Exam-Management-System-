@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ExamApp.exe" version="1.0.0.6" publicKeyToken="1b9c55374911ce44" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ExamApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ExamApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.ClientDoc" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.CommLayer" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.CommonControls" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.CommonObjectModel" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.Controllers" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.CubeDefModel" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.DataDefModel" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.DataSetConversion" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.ObjectFactory" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.Prompting" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.ReportDefModel" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportAppServer.XmlSerialize" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.ReportSource" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.Shared" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.Windows.Forms" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="FlashControlV71" version="1.0.3187.32366" publicKeyToken="692FBEA5521E1304" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="amd64" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ShockwaveFlashObjects" version="1.0.0.0" publicKeyToken="692FBEA5521E1304" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExamApp.exe" size="12789760">
+      <assemblyIdentity name="ExamApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EFRFv//lkLzllTqHo4I+HpVxtrOD/0ZVgGtCvLp35NQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI.dll" size="1136296">
+      <assemblyIdentity name="Guna.UI" version="1.9.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KAUtDqFdUdmwn9C4LBlFKRQXnye8SOe0IsJeNkclyVY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1510056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.1" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v3KTmSKvos0XBx9RcLSoLQW86x/DPOKc37xo27l/Anc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ExamApp.exe.config" size="229">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OXYMdVFiR7ds9YCIidEfwdQ8FgxVBWMu6s7n1zNui4w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LE🙏ROI🤴CEZAR\DELL" issuerKeyHash="78256361a3611d6ec76b49af046a7511c6061918" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S/3NdcAfYU1RlvbhDIHfTNUKl/nrFeHCsKI1l9LL5C0=</DigestValue></Reference></SignedInfo><SignatureValue>qiLU15WUo+YgfkJL6/t6sOgXRVKo0D4hoZvyYJdLXcHuZIuleTg/FATYNElNInv3rVVPX6eZG39v1ZfO79SrQgRrL0Z/jcjnxuWpEHCfpojgViJAFGEfwpPu8hb806rn7dDLYysPawW8Pn1PjZF4Pl8HDKEvuPol+hgDSN7bh5Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rsNraP9qjvnJ9doEZdKiUx0mcmGgr101vHDCTBK/QGMQ+xC3ANz79yWj1o3W9N4I0kE+cDRwKJh6NDEXURguoyfMsZvDy/YGrst6fz95nL/gpV4IlisbmQ94f/aJyly2Be48Zq9EJS6l41X35qphSH3llc+VF5X4oPRtSzfMsyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2de4cbd29735a2b0c2e115ebf9970ad54cdf810ce1f696514d611fc075cdfd4b" Description="" Url=""><as:assemblyIdentity name="ExamApp.exe" version="1.0.0.6" publicKeyToken="1b9c55374911ce44" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LE🙏ROI🤴CEZAR\DELL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2GX6Y4gzKNREUSugb9Kiv5BIjlwgLuFKc9ozNRCvM9s=</DigestValue></Reference></SignedInfo><SignatureValue>Gf8m7NOIYXgKfm0j9KtL9bj3Zs/Sh3EDylk+wHfJqKNU/gWi5hwUXdeaW2mRIt9a42V3XoW24+PNpUNAXdVzkFVUidb51ODJj3LL8BN/pOE2SJppDwBllMnSeM0fA5yADno/ZlYYhuzZF+h+YqQoZ99HpqFnhCntLeIsn4Z2hJg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rsNraP9qjvnJ9doEZdKiUx0mcmGgr101vHDCTBK/QGMQ+xC3ANz79yWj1o3W9N4I0kE+cDRwKJh6NDEXURguoyfMsZvDy/YGrst6fz95nL/gpV4IlisbmQ94f/aJyly2Be48Zq9EJS6l41X35qphSH3llc+VF5X4oPRtSzfMsyE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQTWaHJiWVuapOKt7CWWAMADANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYATABF2D3eTwBSAE8ASdg+3TQAQwBFAFoAQQBSAFwARABFAEwATDAeFw0yNDA4MjAxNTM1NTJaFw0yNTA4MjAyMTM1NTJaMDExLzAtBgNVBAMeJgBMAEXYPd5PAFIATwBJ2D7dNABDAEUAWgBBAFIAXABEAEUATABMMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuw2to/2qO+cn12gRl0qJTHSZyYaCvXTW8cMJMEr9AYxD7ELcA3Pv3JaPWjdb03gjSQT5wNHAomHo0MRdRGC6jJ8yxm8PL9gauy3p/P3mcv+ClXgiWKxuZD3h/9onKXLYF7jxmr0QlLqXjVffmqmFIfeWVz5UXlfig9G1LN8yzIQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFt51nLA6MK4/BUJPHlXU43YFqkbqyV0aBFlO7etIS3YYJ/8yyAF0r+BLFRs+39PSemb8lyS+EBk/lw5OaNjuXFvavtrLc1ttxF82SpRJ8JJnsLLr/VqoemZrhn2S7Z+UGzqUcgI06P68dn/tI63y8gl15vUYL/hkr1bsG+ntkZU</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
